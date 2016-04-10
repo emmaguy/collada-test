@@ -17,8 +17,9 @@ import com.badlogic.gdx.utils.Array;
 
 public class LoadModelsTest extends ApplicationAdapter {
     private static final String SHIP = "ship.g3db";
+    private static final String INVADER = "invaders.g3db";
 
-    private static final String MODEL_PATH = SHIP;
+    private static final String MODEL_PATH = INVADER;
 
     private final Array<ModelInstance> instances = new Array<ModelInstance>();
 
